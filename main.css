@@ -5,13 +5,10 @@ body {
 }
 
 .logo {
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    width: 5%;
-    height: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
 
 .text {
