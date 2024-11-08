@@ -6,12 +6,12 @@ body {
 
 .logo {
     position: absolute;
-    top: 10%;
+    top: 15%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    width: 25%;
-    height: 25%;
+    width: 15%;
+    height: 15%;
 }
 
 .text {
