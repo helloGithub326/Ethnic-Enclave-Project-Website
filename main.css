@@ -16,6 +16,8 @@ body {
     width: auto;
     height: auto;
     border: 2px black;
+    corner-radius: 0px;
+    color: red;
 }
 
 .text {
