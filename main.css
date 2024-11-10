@@ -33,5 +33,6 @@ body {
 .credits {
     font-size: 8px;
     position: absolute;
-    transform: translate(180%, -700%)
+    top: -10px;
+    left: 10px;
 }
