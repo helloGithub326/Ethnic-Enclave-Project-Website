@@ -5,11 +5,10 @@ body {
 }
 
 .logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 10vh;
-    height: 10vh;
+    position: absolute;
+    transform: translate(40vw, 40vh);
+    width: 20vh;
+    height: 20vh;
     cursor: pointer;
 }
 
@@ -19,7 +18,7 @@ body {
     text-align: center;
     color: red;
     font-size: 30px;
-    width: 40%;
+    width: 38%;
     height: 90%;
     cursor: pointer;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./introduction.jpeg");
@@ -32,8 +31,8 @@ body {
 }
 
 .btn-group {
-    width: 80vw;
-    height: 90vh;
+    width: 90vw;
+    height: 95vh;
     display:  flex;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -41,6 +40,7 @@ body {
     justify-content: space-evenly;
     margin: auto;
     display: "flex";
+    transform: translate(0, 4vh);
 }
 
 .btn-row {
@@ -51,7 +51,7 @@ body {
     flex-wrap: nowrap;
     align-items: center;
     align-content: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .btn-img {
