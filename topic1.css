@@ -19,10 +19,11 @@ body {
 
 .title {
     font-style: bold;
+    text-align: center;
 }
 
-.main {
-    text-align: center;
+.maps {
+    padding-left: 5px;
 }
 
 .credits {

@@ -21,14 +21,46 @@ body {
     width: 38%;
     height: 90%;
     cursor: pointer;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./introduction.jpeg");
-    background-size: cover;
 }
 
 .btn:hover {
+    border: red 2px solid;
+}
+
+#btn1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./introduction.jpeg");
+    background-size: cover;
+}
+#btn1:hover {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./introduction.jpeg");
     background-size: cover;
-    border: red 2px solid;
+}
+
+#btn2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./language.png");
+    background-size: cover;
+}
+#btn2:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./language.png");
+    background-size: cover;
+}
+
+#btn3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./introduction.jpeg");
+    background-size: cover;
+}
+#btn3:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./introduction.jpeg");
+    background-size: cover;
+}
+
+#btn4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./introduction.jpeg");
+    background-size: cover;
+}
+#btn4:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./introduction.jpeg");
+    background-size: cover;
 }
 
 .btn-group {
