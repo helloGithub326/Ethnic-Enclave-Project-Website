@@ -22,13 +22,15 @@ body {
     text-align: center;
 }
 
+.img {
+    border-radius: 5px;
+}
+
 .maps {
     padding-left: 5px;
 }
 
-.credits {
-    font-size: 1.75vh;
-    position: absolute;
-    top: -10px;
-    left: 10px;
+.map {
+    width: 300px;
+    height: 300px;
 }
