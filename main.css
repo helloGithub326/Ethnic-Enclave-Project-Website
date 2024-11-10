@@ -13,13 +13,25 @@ body {
 }
 
 .btn {
-    width: auto;
-    height: auto;
-    border: 2px black;
-    corner-radius: 0px;
-    color: red;
+    border: none;
+    background-color: red;
+}
+
+.btn-group {
+    width: 100%;
+    padding: 10px;
+}
+
+.btn-row {
+    width: 100%;
 }
 
 .text {
     font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.credits {
+    font-size: 8px;
+    position: absolute;
+    transform: translate(180%, -700%)
 }
