@@ -38,6 +38,6 @@ btn4.addEventListener("mouseout", () => {
 });
 
 //On click
-btn1.addEventListener("onclick", () => {
+btn1.onclick = function () {
     location.replace("./topic1.html")
-});
+}
