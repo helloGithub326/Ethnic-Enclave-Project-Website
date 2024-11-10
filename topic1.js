@@ -1,5 +1,5 @@
 logo = document.getElementById("logo");
 
-logo.addEventListener("onclick", () => {
+logo.onclick = function() {
     location.replace("./index.html")
-});
+}

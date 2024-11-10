@@ -5,8 +5,9 @@ body {
 }
 
 .logo {
-    position: absolute;
-    transform: translate(calc(50vw - 5vh), 1vh);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 10vh;
     height: 10vh;
     cursor: pointer;

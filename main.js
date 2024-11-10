@@ -41,3 +41,15 @@ btn4.addEventListener("mouseout", () => {
 btn1.onclick = function () {
     location.replace("./topic1.html")
 }
+
+btn2.onclick = function () {
+    location.replace("./topic2.html")
+}
+
+btn3.onclick = function () {
+    location.replace("./topic3.html")
+}
+
+btn4.onclick = function () {
+    location.replace("./topic4.html")
+}
