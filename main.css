@@ -6,7 +6,7 @@ body {
 
 .logo {
     position: absolute;
-    transform: translate(40vw, 40vh);
+    transform: translate(calc(50vw - 10vh), calc(50vh - 10vh));
     width: 20vh;
     height: 20vh;
     cursor: pointer;
