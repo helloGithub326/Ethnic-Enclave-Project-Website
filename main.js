@@ -1,12 +1,12 @@
-var btn1 = document.getElementById("#btn1");
-var btn2 = document.getElementById("#btn2");
-var btn3 = document.getElementById("#btn3");
-var btn4 = document.getElementById("#btn4");
+var btn1 = document.getElementById("btn1");
+var btn2 = document.getElementById("btn2");
+var btn3 = document.getElementById("btn3");
+var btn4 = document.getElementById("btn4");
 
 //Hover
-function btn1Hover() {
+btn1.addEventListener("mouseover", () => {
     btn1.querySelector("#btn1T").innerText = "Topic 1 Description"
-}
+});
 
 btn2.addEventListener("mouseover", () => {
     btn2.querySelector("#btn2T").innerText = "Topic 2 Description"
