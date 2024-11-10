@@ -2,10 +2,12 @@ body {
     padding: 0;
     margin: 0;
     background-color: #FFCCCB;
+    /* background: linear-gradient(135deg, hsl(1, 100%, 66%) 0%, #272727 100%); */
 }
 
 .logo {
     display: block;
+    padding-top: 5px;
     margin-left: auto;
     margin-right: auto;
     width: 10vh;
@@ -27,7 +29,7 @@ body {
 }
 
 .maps {
-    padding-left: 5px;
+    padding-left: 15px;
 }
 
 .map {
