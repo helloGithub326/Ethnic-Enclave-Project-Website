@@ -13,11 +13,6 @@ body {
     cursor: pointer;
 }
 
-.main {
-    width: 100vh;
-    height: 100vh;
-}
-
 .btn {
     border: none;
     border-radius: 5px;
@@ -29,7 +24,12 @@ body {
     padding: none;
     cursor: pointer;
     background-color: transparent;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/introduction.jpeg");
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./introduction.jpeg");
+    background-size: cover;
+}
+
+.btn:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./introduction.jpeg");
     background-size: cover;
 }
 
