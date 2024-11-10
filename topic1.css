@@ -1,0 +1,32 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #FFCCCB;
+}
+
+.logo {
+    position: absolute;
+    transform: translate(calc(50vw - 5vh), 1vh);
+    width: 10vh;
+    height: 10vh;
+    cursor: pointer;
+}
+
+.text {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.title {
+    font-style: bold;
+}
+
+.main {
+    text-align: center;
+}
+
+.credits {
+    font-size: 1.75vh;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+}

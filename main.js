@@ -36,3 +36,8 @@ btn3.addEventListener("mouseout", () => {
 btn4.addEventListener("mouseout", () => {
     btn4.querySelector("#btn4T").innerText = "Topic 4"
 });
+
+//On click
+btn1.addEventListener("onclick", () => {
+    location.replace("./topic1.html")
+});
