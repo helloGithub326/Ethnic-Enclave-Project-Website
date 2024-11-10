@@ -12,6 +12,30 @@ body {
     cursor: pointer;
 }
 
+.sources {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0, -25vh);
+    display: grid;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: red;
+    font-size: 15px;
+    cursor: pointer;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./coolFlag.png");
+    background-size: cover;
+}
+
+.sources:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./coolFlag.png");
+    background-size: cover;
+    border: red 2px solid;
+}
+
 .btn {
     border: none;
     border-radius: 5px;
