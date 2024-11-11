@@ -55,11 +55,11 @@ body {
 }
 
 #rcl3 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./rcl3.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./rcl3.png");
     background-size: cover;
 }
 #rcl3:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./rcl3.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./rcl3.png");
     background-size: cover;
 }
 
@@ -68,12 +68,12 @@ body {
     padding-top: 15px;
 }
 
-.langCultLand {
+.relCultLand {
     padding-left: 15px;
     padding-top: 50px;
 }
 
-.langCultLandBtns {
+.relCultLandBtns {
     display: flex;
     flex-wrap: nowrap;
     justify-content: flex-start;

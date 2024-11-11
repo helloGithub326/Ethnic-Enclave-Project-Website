@@ -1,0 +1,29 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #FFCCCB;
+    background: linear-gradient(180deg, #ffcccb, #ff6e6e 100%);
+}
+
+.logo {
+    display: block;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10vh;
+    height: 10vh;
+    cursor: pointer;
+}
+
+.text {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.title {
+    font-style: bold;
+    text-align: center;
+}
+
+.sources {
+    padding-left: 15px;
+}

@@ -1,0 +1,108 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #FFCCCB;
+    background: linear-gradient(180deg, #ffcccb, #ff6e6e 100%);
+}
+
+.logo {
+    display: block;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10vh;
+    height: 10vh;
+    cursor: pointer;
+}
+
+.text {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.title {
+    font-style: bold;
+    text-align: center;
+}
+
+.img {
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 20px;
+    border: none;
+}
+.img:hover {
+    border: red 2px solid;
+}
+
+#distEthnicBtn {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./de.png");
+    background-size: cover;
+    width: 800px;
+    height: 400px;
+}
+#distEthnicBtn:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./de.png");
+    background-size: cover;
+}
+
+#ecl1 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./ecl1.jpg");
+    background-size: cover;
+}
+#ecl1:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./ecl1.jpg");
+    background-size: cover;
+}
+
+#ecl2 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./ecl2.jpg");
+    background-size: cover;
+}
+#ecl2:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./ecl2.jpg");
+    background-size: cover;
+}
+
+#gcl1 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./gcl1.jpg");
+    background-size: cover;
+}
+#gcl1:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./gcl1.jpg");
+    background-size: cover;
+}
+
+#gcl2 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./gcl2.png");
+    background-size: cover;
+}
+#gcl2:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./gcl2.png");
+    background-size: cover;
+}
+
+.ethInfo {
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.genSpace, .distEthnic, .pros, .cons, .eclImgs {
+    padding-left: 15px;
+    padding-top: 50px;
+}
+
+.eclImgBtns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.ecl, .gcl {
+    width: 450px;
+    height: 300px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
