@@ -15,8 +15,12 @@ body {
     cursor: pointer;
 }
 
+.sT {
+    font-size: 25px;
+}
+
 h6 {
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .text {
