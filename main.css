@@ -14,24 +14,22 @@ body {
 
 .sources {
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    align-items: center;
-    transform: translate(0, -25vh);
-    display: grid;
+    position: absolute;
+    width: 15vh;
+    height: 10vh;
+    transform: translate(calc(50vw - 7.5vh), calc(-50vh - 5vh + 35vh));
     border: none;
     border-radius: 5px;
     padding: 10px;
     color: red;
     font-size: 15px;
     cursor: pointer;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./coolFlag.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./flag.png");
     background-size: cover;
 }
 
 .sources:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./coolFlag.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./flag.png");
     background-size: cover;
     border: red 2px solid;
 }

@@ -2,7 +2,7 @@ body {
     padding: 0;
     margin: 0;
     background-color: #FFCCCB;
-    background: linear-gradient(180deg, hsl(1, 100%, 71%) 0%, #272727 100%);
+    background: linear-gradient(180deg, #ffcccb, #ff6e6e 100%);
 }
 
 .logo {
@@ -19,6 +19,10 @@ body {
     font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
+.sT {
+    padding-top: 10px;
+}
+
 .title {
     font-style: bold;
     text-align: center;
@@ -26,14 +30,13 @@ body {
 
 .img {
     border-radius: 5px;
+    display: inline-block;
     color: white;
     font-family: 'Helvetica', 'Arial', sans-serif;
     font-size: 20px;
     border: none;
-    background-size: cover;
 }
 .img:hover {
-    background-size: cover;
     border: red 2px solid;
 }
 
@@ -103,6 +106,18 @@ body {
 .maps, .cultureImgs {
     padding-left: 15px;
 }
+.mapsBtns {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    width: 100%;
+}
+.cultureImgBtns {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    width: 100%;
+}
 
 .diffusion {
     padding-right: 15px;
@@ -112,9 +127,11 @@ body {
 .map {
     width: 300px;
     height: 300px;
+    margin-right: 10px;
 }
 
 .cI {
     width: 300px;
     height: 200px;
+    margin-right: 10px;
 }
