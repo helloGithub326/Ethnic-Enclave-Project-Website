@@ -64,11 +64,11 @@ body {
 }
 
 #lc1 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./lc1.png");
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./lc1.webp");
     background-size: cover;
 }
 #lc1:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./lc1.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./lc1.webp");
     background-size: cover;
 }
 
@@ -119,6 +119,10 @@ body {
     padding-right: 15px;
     padding-top: 50px;
     text-align: right;
+}
+
+.maps {
+    padding-top: 15px;
 }
 
 .cultureImgs {

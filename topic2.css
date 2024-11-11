@@ -36,38 +36,52 @@ body {
     border: red 2px solid;
 }
 
-#streetMap {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./streetMap.png");
+#lcl1 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./lcl1.webp");
     background-size: cover;
 }
-#streetMap:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./streetMap.png");
+#lcl1:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./lcl1.webp");
     background-size: cover;
 }
 
-.maps {
-    padding-left: 15px;
+#lcl2 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./lcl2.jpg");
+    background-size: cover;
 }
-.mapsBtns {
+#lcl2:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./lcl2.jpg");
+    background-size: cover;
+}
+
+#lcl3 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./lcl3.png");
+    background-size: cover;
+}
+#lcl3:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./lcl3.png");
+    background-size: cover;
+}
+
+.langInfo {
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.langCultLand {
+    padding-left: 15px;
+    padding-top: 50px;
+}
+
+.langCultLandBtns {
     display: flex;
     flex-wrap: nowrap;
     justify-content: flex-start;
     width: 100%;
 }
 
-.diffusion {
-    padding-right: 15px;
-    text-align: right;
-}
-
-.map {
-    width: 300px;
+.lcl {
+    width: 450px;
     height: 300px;
-    margin-right: 10px;
-}
-
-.cI {
-    width: 300px;
-    height: 200px;
     margin-right: 10px;
 }
