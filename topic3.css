@@ -15,6 +15,10 @@ body {
     cursor: pointer;
 }
 
+h6 {
+    font-size: 12px;
+}
+
 .text {
     font-family: 'Helvetica', 'Arial', sans-serif;
 }
