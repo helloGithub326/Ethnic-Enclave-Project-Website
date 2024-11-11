@@ -6,19 +6,19 @@ var sourcesBtn = document.getElementById("sourcesBtn");
 
 //Hover
 btn1.addEventListener("mouseover", () => {
-    btn1.querySelector("#btn1T").innerText = "Topic 1 Description"
+    btn1.querySelector("#btn1T").innerText = "Learn the basics about Chicago Chinatown and how it diffused there."
 });
 
 btn2.addEventListener("mouseover", () => {
-    btn2.querySelector("#btn2T").innerText = "Topic 2 Description"
+    btn2.querySelector("#btn2T").innerText = "Learn about the dominant language in Chicago Chinatown and its impact on the cultural landscape."
 });
 
 btn3.addEventListener("mouseover", () => {
-    btn3.querySelector("#btn3T").innerText = "Topic 3 Description"
+    btn3.querySelector("#btn3T").innerText = "Learn about the dominant religion in Chicago Chinatown and its impact on the cultural landscape."
 });
 
 btn4.addEventListener("mouseover", () => {
-    btn4.querySelector("#btn4T").innerText = "Topic 4 Description"
+    btn4.querySelector("#btn4T").innerText = "Learn about the ethnic groups, gender spaces, their impact on the cultural landscape, and pros and cons of the development of ethnic enclaves."
 });
   
 //Hover off
