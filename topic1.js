@@ -15,7 +15,7 @@ logo.onclick = function() {
 }
 
 mouseOver = function(img) {
-    document.getElementById(img).innerText = captions[img]
+    document.getElementById(img).querySelector(img + "T").innerText = captions[img]
 }
 
 mouseOut = function(img) {
