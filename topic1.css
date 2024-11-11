@@ -2,7 +2,7 @@ body {
     padding: 0;
     margin: 0;
     background-color: #FFCCCB;
-    /* background: linear-gradient(135deg, hsl(1, 100%, 66%) 0%, #272727 100%); */
+    background: linear-gradient(180deg, hsl(1, 100%, 71%) 0%, #272727 100%);
 }
 
 .logo {
@@ -26,9 +26,81 @@ body {
 
 .img {
     border-radius: 5px;
+    color: white;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 20px;
+    border: none;
+    background-size: cover;
+}
+.img:hover {
+    background-size: cover;
+    border: red 2px solid;
 }
 
-.maps {
+#streetMap {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./streetMap.png");
+    background-size: cover;
+}
+#streetMap:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./streetMap.png");
+    background-size: cover;
+}
+
+#satMap {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./satMap.png");
+    background-size: cover;
+}
+#satMap:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./satMap.png");
+    background-size: cover;
+}
+
+#raceMap {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./raceMap.png");
+    background-size: cover;
+}
+#raceMap:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./raceMap.png");
+    background-size: cover;
+}
+
+#lc1 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./lc1.png");
+    background-size: cover;
+}
+#lc1:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./lc1.png");
+    background-size: cover;
+}
+
+#lc2 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./lc2.jpg");
+    background-size: cover;
+}
+#lc2:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./lc2.jpg");
+    background-size: cover;
+}
+
+#pc1 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./pc1.jpg");
+    background-size: cover;
+}
+#pc1:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./pc1.jpg");
+    background-size: cover;
+}
+
+#pc2 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./pc2.jpg");
+    background-size: cover;
+}
+#pc2:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./pc2.jpg");
+    background-size: cover;
+}
+
+.maps, .cultureImgs {
     padding-left: 15px;
 }
 
@@ -40,4 +112,9 @@ body {
 .map {
     width: 300px;
     height: 300px;
+}
+
+.cI {
+    width: 300px;
+    height: 200px;
 }
