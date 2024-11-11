@@ -22,19 +22,19 @@ btn4.addEventListener("mouseover", () => {
   
 //Hover off
 btn1.addEventListener("mouseout", () => {
-    btn1.querySelector("#btn1T").innerText = "Topic 1"
+    btn1.querySelector("#btn1T").innerText = "Ethnic Enclave Introduction"
 });
 
 btn2.addEventListener("mouseout", () => {
-    btn2.querySelector("#btn2T").innerText = "Topic 2"
+    btn2.querySelector("#btn2T").innerText = "Language"
 });
 
 btn3.addEventListener("mouseout", () => {
-    btn3.querySelector("#btn3T").innerText = "Topic 3"
+    btn3.querySelector("#btn3T").innerText = "Religion"
 });
 
 btn4.addEventListener("mouseout", () => {
-    btn4.querySelector("#btn4T").innerText = "Topic 4"
+    btn4.querySelector("#btn4T").innerText = "Ethnicity and Gender"
 });
 
 //On click
