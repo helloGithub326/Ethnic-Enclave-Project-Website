@@ -19,10 +19,6 @@ body {
     font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
-.sT {
-    padding-top: 10px;
-}
-
 .title {
     font-style: bold;
     text-align: center;
@@ -114,14 +110,19 @@ body {
 }
 .cultureImgBtns {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: flex-start;
     width: 100%;
 }
 
 .diffusion {
     padding-right: 15px;
+    padding-top: 50px;
     text-align: right;
+}
+
+.cultureImgs {
+    padding-top: 50px;
 }
 
 .map {
@@ -131,7 +132,8 @@ body {
 }
 
 .cI {
-    width: 300px;
-    height: 200px;
+    width: 450px;
+    height: 300px;
     margin-right: 10px;
+    margin-top: 10px;
 }
